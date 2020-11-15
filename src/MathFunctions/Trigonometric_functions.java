@@ -80,13 +80,10 @@ public class Trigonometric_functions {
 		   
 	   } 
 	
-
+	   
+	   
 	   public MathFunc() {
 		   System.out.println("object created");
 	   }
-	    public static void main(String args[]) {
-	    	MathFunc mf = new MathFunc();
-	    	System.out.println(mf.toRadians(30.0));
-	    }
 	}
 }
