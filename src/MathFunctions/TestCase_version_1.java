@@ -5,38 +5,47 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import com.sun.jdi.Method;
+
 import MathFunctions.Trigonometric_functions.MathFunc;
 
 class TestCase_version_1 {
 
 	
 	@Test
-	@DisplayName("It should convert degrees to radians")
+	@DisplayName("It check toRadian function")
 	void testRadian() {
-		MathFunc mathf = new MathFunc();
-		// Checks the radian value of degree  
-		assertEquals(mathf.toRadians(30.0), 0.1);
+		fail("Not yet implemented");
 	}
 	
 	@Test
-	@DisplayName("It should give sine value of degree")
+	@DisplayName("It check Sin function")
 	void TestSin() {
-		MathFunc mathf = new MathFunc();
-		assertEquals(mathf.Sin(mathf.toRadians(30)), 0.22222);
+		fail("Not yet implemented");
 	}
 
 	@Test
-	@DisplayName("It should give Cos value of degree")
+	@DisplayName("It check Cos function")
 	void TestCos() {
-		MathFunc mathf = new MathFunc();
-		assertEquals(mathf.Cos(mathf.toRadians(30.0)), 0.1121);
+		fail("Not yet implemented");
 	}
 
 	@Test
-	@DisplayName("It should give Tan value of degree")
+	@DisplayName("It check Tan function")
 	void TestTan() {
-		MathFunc mathf = new MathFunc();
-		assertEquals(mathf.Tan(mathf.toRadians(30.0)), 0.323232);
+		fail("Not yet implemented");
+	}
+
+	@Test
+	@DisplayName("It check factorial function")
+	void TestFactorail() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	@DisplayName("It check Power function")
+	void TestPower() {
+		fail("Not yet implemented");
 	}
 
 	
