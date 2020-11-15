@@ -79,8 +79,6 @@ public class Trigonometric_functions {
 		   return sine/cos;
 		   
 	   } 
-	
-	   
 	   
 	   public MathFunc() {
 		   System.out.println("object created");
