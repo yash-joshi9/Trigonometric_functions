@@ -80,20 +80,13 @@ public class Trigonometric_functions {
 		   
 	   } 
 	
-		public static void main(String args[]) {
-			MathFunc f = new MathFunc();
-			
-			System.out.println(Math.sin(f.toRadians(30.0)));
-			System.out.println(f.Sin(f.toRadians(30.0)));
-			
-			System.out.println(f.Cos(f.toRadians(45.0)));
-			System.out.println(Math.cos(f.toRadians(45.0)));
-			
-			System.out.println(f.Tan(45.0));
-			System.out.println(Math.tan(f.toRadians(45.0)));
-			
-		
-			
-		}
+
+	   public MathFunc() {
+		   System.out.println("object created");
+	   }
+	    public static void main(String args[]) {
+	    	MathFunc mf = new MathFunc();
+	    	System.out.println(mf.toRadians(30.0));
+	    }
 	}
 }
