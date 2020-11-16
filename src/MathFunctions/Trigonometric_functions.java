@@ -80,6 +80,18 @@ public class Trigonometric_functions {
 		   
 	   } 
 	   
+//	   public double toCeil(double d) {
+//		   
+//	   }
+	   
+	   public static void main(String args[]) {
+		   MathFunc m = new MathFunc();
+		   double s = m.Sin(m.toRadians(33.0));
+		   System.out.println( 
+				      String.format("%.3f", s));
+		   System.out.println(Math.sin(Math.toRadians(33.0)));
+	   }
+	   
 	   public MathFunc() {
 		   System.out.println("object created");
 	   }

@@ -2,49 +2,57 @@ package MathFunctions;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.Before;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import com.sun.jdi.Method;
 
-import MathFunctions.Trigonometric_functions.MathFunc;
+public class TestCase_version_1 {
 
-class TestCase_version_1 {
-
+	
+//	@Test
+//	public TestCase_version_1() {
+//		
+//	}
+	
+	@Test
+	public void testPrint() {
+		System.out.println(">>>>>>>>>>test 1 executing");
+	}
 	
 	@Test
 	@DisplayName("It check toRadian function")
-	void testRadian() {
+	public void testRadian() {
 		fail("Not yet implemented");
 	}
 	
 	@Test
 	@DisplayName("It check Sin function")
-	void TestSin() {
+	public void TestSin() {
 		fail("Not yet implemented");
 	}
 
 	@Test
 	@DisplayName("It check Cos function")
-	void TestCos() {
+	public void TestCos() {
 		fail("Not yet implemented");
 	}
 
 	@Test
 	@DisplayName("It check Tan function")
-	void TestTan() {
+	public void TestTan() {
 		fail("Not yet implemented");
 	}
 
 	@Test
 	@DisplayName("It check factorial function")
-	void TestFactorail() {
+	public void TestFactorail() {
 		fail("Not yet implemented");
 	}
 
 	@Test
 	@DisplayName("It check Power function")
-	void TestPower() {
+	public void TestPower() {
 		fail("Not yet implemented");
 	}
 
