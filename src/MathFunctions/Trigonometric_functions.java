@@ -7,6 +7,8 @@ public class Trigonometric_functions {
 //		static PI value
 		double PI = 3.141592653589793;
 		
+		double PI_2 = 22/7;
+		
 //		coverts degree to radians
 		public double toRadians(double d) {
 			return d * PI/180;

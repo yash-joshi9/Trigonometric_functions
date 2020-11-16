@@ -16,36 +16,35 @@ public class TestCase_version_2 {
 		System.out.println(">>>>>>>>>>test 2 executing");
 	}
 	
-
-	@Test
-	@DisplayName("It should convert degrees to radians")
-	public void testRadian() {
-		MathFunc mathf = new MathFunc();
-		// Checks the radian value of degree  
-		assertEquals(mathf.toRadians(30.0), 0.1);
-	}
+	MathFunc m = new MathFunc();
 	
-//	Checks sine's value 
+//	Comparing sine with Math.sine 
 	@Test
 	@DisplayName("It should give sine value of degree")
-	public void TestSin() {
-		MathFunc mathf = new MathFunc();
-		assertEquals(mathf.Sin(mathf.toRadians(30)), 0.22222);
+	public void testsin()
+	{
+		double s = m.Sin(m.toRadians(33.0));
+		String str = String.format("%.3f", s);
+		String str2 = String.format("%.3f", Math.sin(Math.toRadians(33)));
+		assertEquals(str2, str);
 	}
-
-//	Checks cos's value 
-	@Test
-	@DisplayName("It should give Cos value of degree")
-	public void TestCos() {
-		MathFunc mathf = new MathFunc();
-		assertEquals(mathf.Cos(mathf.toRadians(30.0)), 0.1121);
-	}
-
-//	Checks Tan's value
+	
+//	Comparing cos with Math.Cos 
 	@Test
 	@DisplayName("It should give Tan value of degree")
-	public void TestTan() {
-		MathFunc mathf = new MathFunc();
-		assertEquals(mathf.Tan(mathf.toRadians(30.0)), 0.323232);
+	public void testcos()
+	{
+		float c = (float)m.Cos(m.toRadians(66));
+		assertEquals((float)Math.cos(Math.toRadians(66)), c);
+		
+	}
+	
+//	Comparing Tan with Math.Tan 
+	@Test
+	@DisplayName("It should give Tan value of degree")
+	public void testTan()
+	{
+		float t = (float) m.Tan(66);
+		assertEquals((float)(Math.tan(Math.toRadians(66))), t);
 	}
 }
