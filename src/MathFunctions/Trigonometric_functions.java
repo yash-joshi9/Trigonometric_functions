@@ -3,12 +3,16 @@ package MathFunctions;
 public class Trigonometric_functions {
 
 	static class MathFunc {
+		
+//		static PI value
 		double PI = 3.141592653589793;
 		
+//		coverts degree to radians
 		public double toRadians(double d) {
 			return d * PI/180;
 		}
 		
+//		Returns sine value
 		public double Sin(double d) { 
 
 			double index = 1.0;      // ith term = x^i / i!
@@ -33,6 +37,7 @@ public class Trigonometric_functions {
 	        return value;
 		}
 		
+//		returns factorial of the number
 		public static long factorial(long f) {
 		    if (f == 0) {
 		        return 1;
@@ -40,16 +45,8 @@ public class Trigonometric_functions {
 		        return f * factorial(f - 1);
 		    }
 		}
-		
-		
-		public int factorial(double d) {
-			 int fact=1;      
-			  for(int i=1;i<=d;i++){    
-			      fact=fact*i;    
-			  }  
-			  return fact;
-		}
-		
+
+//		returns power
 		public float power(double base, double exponent) {
 			float result = 1;
 
@@ -60,6 +57,7 @@ public class Trigonometric_functions {
 	        return result;
 		}
 		
+//		return Cosine value 
 		public double Cos(double x)
 		{
 			double sum=0;
@@ -70,6 +68,7 @@ public class Trigonometric_functions {
 			return sum;
 		}
 		
+//		returns Tan value
 	   public double Tan(double x) 
 	   { 
 		   
@@ -80,9 +79,6 @@ public class Trigonometric_functions {
 		   
 	   } 
 	   
-//	   public double toCeil(double d) {
-//		   
-//	   }
 	   
 	   public static void main(String args[]) {
 		   MathFunc m = new MathFunc();

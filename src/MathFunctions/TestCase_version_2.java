@@ -10,15 +10,13 @@ import MathFunctions.Trigonometric_functions.MathFunc;
 
 public class TestCase_version_2 {
 
-	@Test
-	public void TestCase_version_2() {
-	}
-	
+
 	@Test
 	public void testPrint() {
 		System.out.println(">>>>>>>>>>test 2 executing");
 	}
 	
+
 	@Test
 	@DisplayName("It should convert degrees to radians")
 	public void testRadian() {
@@ -27,6 +25,7 @@ public class TestCase_version_2 {
 		assertEquals(mathf.toRadians(30.0), 0.1);
 	}
 	
+//	Checks sine's value 
 	@Test
 	@DisplayName("It should give sine value of degree")
 	public void TestSin() {
@@ -34,6 +33,7 @@ public class TestCase_version_2 {
 		assertEquals(mathf.Sin(mathf.toRadians(30)), 0.22222);
 	}
 
+//	Checks cos's value 
 	@Test
 	@DisplayName("It should give Cos value of degree")
 	public void TestCos() {
@@ -41,6 +41,7 @@ public class TestCase_version_2 {
 		assertEquals(mathf.Cos(mathf.toRadians(30.0)), 0.1121);
 	}
 
+//	Checks Tan's value
 	@Test
 	@DisplayName("It should give Tan value of degree")
 	public void TestTan() {

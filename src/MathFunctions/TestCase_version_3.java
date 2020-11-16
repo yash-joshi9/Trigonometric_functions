@@ -10,9 +10,6 @@ import MathFunctions.Trigonometric_functions.MathFunc;
 public class TestCase_version_3 {
 
 	
-	@Test
-	public void TestCase_version_3() {
-	}
 
 	@Test
 	public void testPrint() {
@@ -30,6 +27,7 @@ public class TestCase_version_3 {
 		assertEquals(Math.toRadians(30),radian);
 	}
 	
+	
 	@Test
 	public void testToRadian2()
 	{
@@ -46,6 +44,7 @@ public class TestCase_version_3 {
 		long fact = MathFunc.factorial(0);
 		assertEquals(1L, fact);
 	}
+	
 	
 	@Test
 	@DisplayName("Test Case for long value")

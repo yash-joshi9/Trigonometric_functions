@@ -7,9 +7,7 @@ import MathFunctions.Trigonometric_functions.MathFunc;
 
 public class TestCase_version_4 {
 
-	@Test
-	public void TestCase_version_4() {
-	}
+
 	
 	@Test
 	public void testPrint() {
@@ -17,6 +15,8 @@ public class TestCase_version_4 {
 	}
 	
 	MathFunc m = new MathFunc();
+	
+//	Comparing sine with Math.sine 
 	@Test
 	public void testsin()
 	{
@@ -27,6 +27,7 @@ public class TestCase_version_4 {
 		assertEquals(str2, str);
 	}
 	
+//	Comparing cos with Math.Cos 
 	@Test
 	public void testcos()
 	{
@@ -35,6 +36,7 @@ public class TestCase_version_4 {
 		
 	}
 	
+//	Comparing Tan with Math.Tan 
 	@Test
 	public void testTan()
 	{

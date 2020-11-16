@@ -1,7 +1,6 @@
 package MathFunctions;
 
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
+
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
@@ -14,6 +13,6 @@ import org.junit.runners.Suite.SuiteClasses;
 	TestCase_version_4.class
 })
 
-
+//Checks all the test cases with single file (TestSuite)
 public class AllTests {
 }
